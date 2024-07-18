@@ -22,3 +22,4 @@ class Employee:
 
     def generate_revenue(self, amount):
         self.revenue_generated += amount
+  
