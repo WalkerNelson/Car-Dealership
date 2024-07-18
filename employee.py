@@ -22,21 +22,3 @@ class Employee:
 
     def generate_revenue(self, amount):
         self.revenue_generated += amount
-
-
-# Employee One
-employee = Employee("John Doe", "salesman", 20)
-employee.generate_revenue(20000)
-print(f"Name: {employee.name}")
-print(f"Position: {employee.get_position()}")
-print(f"Cars Sold: {employee.get_cars_sold()}")
-print(f"Revenue Generated: ${employee.get_revenue_generated()}")
-
-# Employee Two
-print('\n')
-employee = Employee("Jane Doe", "salesman", 21)
-employee.generate_revenue(300000)
-print(f"Name: {employee.name}")
-print(f"Position: {employee.get_position()}")
-print(f"Cars Sold: {employee.get_cars_sold()}")
-print(f"Revenue Generated: ${employee.get_revenue_generated()}")
