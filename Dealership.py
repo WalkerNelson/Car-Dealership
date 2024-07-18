@@ -1,4 +1,4 @@
-import car 
+import car.Car
 import employee
 
 class Dealership:
